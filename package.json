@@ -9,6 +9,6 @@
     "typescript": "^3.9.5"
   },
   "scripts": {
-    "dev": "tsc src/index.ts"
+    "dev": "tsc"
   }
 }
