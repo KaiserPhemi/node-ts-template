@@ -5,10 +5,15 @@
   "repository": "git@github.com:KaiserPhemi/node-ts-template.git",
   "author": "KaiserPhemi <kaiser.phemi@protonmail.ch>",
   "license": "MIT",
-  "dependencies": {
-    "typescript": "^3.9.5"
-  },
   "scripts": {
-    "dev": "tsc"
+    "start": "node build/index.js",
+    "build": "rm -rf build && tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^3.9.5"
   }
 }

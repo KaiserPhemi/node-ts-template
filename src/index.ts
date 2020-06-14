@@ -1,7 +1,8 @@
 // third-party libraries
-// import express from "express";
-// import http from "http";
+import express from "express";
 
-// const app = http.createServer();
+// instantiate app
+const app = express();
 
-// app.listen(5000, () => console.log(`App running on port 5000`));
+// start app on port
+app.listen(5000, () => console.log(`App running on port 5000`));
